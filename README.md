@@ -16,14 +16,14 @@ $ python video_dome.py # 默认使用0摄像头, 也可以通过局域网调用�
 
 # 学习
 
-通过快速训练[train_demo\quick_train.py](train_demo\quick_train.py)开始,阅读项目代码开始学习yolov3的细节. 在这之前
+通过快速训练[train_demo/quick_train.py](train_demo/quick_train.py)开始,阅读项目代码开始学习yolov3的细节. 在这之前
 
 - 下载[data](#),使用浣熊数据集
-- [pic_vis.py] 可视化数据
-- 使用[core\convert_tfrecord.py](core\convert_tfrecord.py),转换为tfrecord文件
-- [train_demo\show_image_from_tfrecord.py](train_demo\show_image_from_tfrecord.py),检查文件是否正常
-- [train_demo\quick_train.py](train_demo\quick_train.py)开始训练调试
-- [train_demo\show_trained_result.py](train_demo\show_trained_result.py) 检测所训练的模型效果.
+- [train_demo/pic_visu.py](train_demo/pic_visu.py) 可视化数据
+- 使用[core/convert_tfrecord.py](core/convert_tfrecord.py),转换为tfrecord文件
+- [train_demo/show_image_from_tfrecord.py](train_demo/show_image_from_tfrecord.py),检查文件是否正常
+- [train_demo/quick_train.py](train_demo/quick_train.py)开始训练调试
+- [train_demo/show_trained_result.py](train_demo/show_trained_result.py) 检测所训练的模型效果.
 
 # 使用其他数据集进行训练
 
